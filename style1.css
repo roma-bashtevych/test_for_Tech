@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    background: rgb(36, 36, 53);
+    background: linear-gradient(90deg, rgba(36, 36, 53, 1) 0%, rgba(55, 55, 70, 1) 35%, rgba(55, 55, 70, 1) 100%);
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.content {
+    padding-top: 30px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.board{
+    display: inline-block;
+    width: 400px;
+    padding: 30px 80px;
+    background-color: rgb(67, 67, 83);
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in{
+    max-height: 500px;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.subtitle {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.label > span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.input {
+    display: block;
+    width: 350px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 8px 15px;
+    font-size: 15px;
+    position: relative;
+}
+
+.input::placeholder {
+    padding: 8px 15px;
+    font-size: 15px;
+}
+
+.password {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+}
+
+.password > svg {
+    fill: #cccccc;
+}
+
+.check {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    padding-left: 15px;
+}
+
+.check__style {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #cccccc;
+}
+
+.check__text {
+    padding-top: 5px;
+    margin-left: 30px;
+}
+
+.check__text > a {
+    text-decoration: none;
+    color: #3069cf;
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+    background-color: #3069cf;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px 30px;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #6288cd;
+}
+
+.sign-in__forgot {
+    display: block;
+    color: #3069cf;
+    margin: 30px auto;
+    transition: color 0.5s ease;
+}
+
+.sign-in__forgot:hover{
+    color: #6288cd;
+}
